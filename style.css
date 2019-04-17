@@ -1,0 +1,386 @@
+.chess_board {
+    width: 360px;
+    text-align: center;
+    padding: 0px;
+}
+
+.chess_board div:nth-child(even) {
+    width: 45px;
+    height: 45px;
+    background-image: url(Screenshot_2.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.chess_board div:nth-child(odd) {
+    width: 45px;
+    height: 45px;
+    background-image: url(Screenshot_1.png);
+    background-size: cover;
+    position: absolute;
+}
+
+
+.cell1 {
+    top: 30px;
+    left: 30px;
+}
+
+.cell2 {
+    top: 30px;
+    left: 75px;
+}
+
+.cell3 {
+    top: 30px;
+    left: 120px;
+}
+
+.cell4 {
+    top: 30px;
+    left: 165px;
+}
+
+.cell5 {
+    top: 30px;
+    left: 210px;
+}
+
+.cell6 {
+    top: 30px;
+    left: 255px;
+}
+
+.cell7 {
+    top: 30px;
+    left: 300px;
+}
+
+.cell8 {
+    top: 30px;
+    left: 345px;
+}
+
+.cell9 {
+    top: 75px;
+    left: 75px;
+}
+
+.cell10 {
+    top: 75px;
+    left: 30px;
+}
+
+.cell11 {
+    top: 75px;
+    left: 165px;
+}
+
+.cell12 {
+    top: 75px;
+    left: 120px;
+}
+
+.cell13 {
+    top: 75px;
+    left: 255px;
+}
+
+.cell14 {
+    top: 75px;
+    left: 210px;
+}
+
+.cell15 {
+    top: 75px;
+    left: 345px;
+}
+
+.cell16 {
+    top: 75px;
+    left: 300px;
+}
+
+.cell17 {
+    top: 120px;
+    left: 30px;
+}
+
+.cell18 {
+    top: 120px;
+    left: 75px;
+}
+
+.cell19 {
+    top: 120px;
+    left: 120px;
+}
+
+.cell20 {
+    top: 120px;
+    left: 165px;
+}
+
+.cell21 {
+    top: 120px;
+    left: 210px;
+}
+
+.cell22 {
+    top: 120px;
+    left: 255px;
+}
+
+.cell23 {
+    top: 120px;
+    left: 300px;
+}
+
+.cell24 {
+    top: 120px;
+    left: 345px;
+}
+
+.cell25 {
+    top: 165px;
+    left: 75px;
+}
+
+.cell26 {
+    top: 165px;
+    left: 30px;
+}
+
+.cell27 {
+    top: 165px;
+    left: 165px;
+}
+
+.cell28 {
+    top: 165px;
+    left: 120px;
+}
+
+.cell29 {
+    top: 165px;
+    left: 255px;
+}
+
+.cell30 {
+    top: 165px;
+    left: 210px;
+}
+
+.cell31 {
+    top: 165px;
+    left: 345px;
+}
+
+.cell32 {
+    top: 165px;
+    left: 300px;
+}
+
+.cell33 {
+    top: 210px;
+    left: 30px;
+}
+
+.cell34 {
+    top: 210px;
+    left: 75px;
+}
+
+.cell35 {
+    top: 210px;
+    left: 120px;
+}
+
+.cell36 {
+    top: 210px;
+    left: 165px;
+}
+
+.cell37 {
+    top: 210px;
+    left: 210px;
+}
+
+.cell38 {
+    top: 210px;
+    left: 255px;
+}
+
+.cell39 {
+    top: 210px;
+    left: 300px;
+}
+
+.cell40 {
+    top: 210px;
+    left: 345px;
+}
+
+.cell41 {
+    top: 255px;
+    left: 75px;
+}
+
+.cell42 {
+    top: 255px;
+    left: 30px;
+}
+
+.cell43 {
+    top: 255px;
+    left: 165px;
+}
+
+.cell44 {
+    top: 255px;
+    left: 120px;
+}
+
+.cell45 {
+    top: 255px;
+    left: 255px;
+}
+
+.cell46 {
+    top: 255px;
+    left: 210px;
+}
+
+.cell47 {
+    top: 255px;
+    left: 345px;
+}
+
+.cell48 {
+    top: 255px;
+    left: 300px;
+}
+
+.cell49 {
+    top: 300px;
+    left: 30px;
+}
+
+.cell50 {
+    top: 300px;
+    left: 75px;
+}
+
+.cell51 {
+    top: 300px;
+    left: 120px;
+}
+
+.cell52 {
+    top: 300px;
+    left: 165px;
+}
+
+.cell53 {
+    top: 300px;
+    left: 210px;
+}
+
+.cell54 {
+    top: 300px;
+    left: 255px;
+}
+
+.cell55 {
+    top: 300px;
+    left: 300px;
+}
+
+.cell56 {
+    top: 300px;
+    left: 345px;
+}
+
+.cell57 {
+    top: 345px;
+    left: 75px;
+}
+
+.cell58 {
+    top: 345px;
+    left: 30px;
+}
+
+.cell59 {
+    top: 345px;
+    left: 165px;
+}
+
+.cell60 {
+    top: 345px;
+    left: 120px;
+}
+
+.cell61 {
+    top: 345px;
+    left: 255px;
+}
+
+.cell62 {
+    top: 345px;
+    left: 210px;
+}
+
+.cell63 {
+    top: 345px;
+    left: 345px;
+}
+
+.cell64 {
+    top: 345px;
+    left: 300px;
+}
+#border1{
+    position: absolute;
+    background-image: url(Screenshot_3.png);
+    width: 20px;
+    height: 395px;
+    background-size: cover;
+    left: 10px;
+    top: 12px;
+    z-index: 1;
+}
+
+#border3{
+        position: absolute;
+    background-image: url(Screenshot_3.png);
+    width: 20px;
+    height: 395px;
+    background-size: cover;
+    left: 389px;
+    top: 12px;
+    z-index: 2;
+}
+#border2{
+      position: absolute;
+    background-image: url(Screenshot_7.png);
+    width: 400px;
+    height: 20px;
+    background-size: cover;  
+    left: 10px;
+    top: 12px;
+    z-index: 3;
+}
+#border4{
+      position: absolute;
+    background-image: url(Screenshot_6.png);
+    width: 400px;
+    height: 20px;
+    background-size: cover;  
+    left: 10px;
+    top: 390px;
+    z-index: 4;
+}
+img{
+    margin-top: 6px;
+}
